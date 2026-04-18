@@ -1,0 +1,317 @@
+{
+  "global": {
+    "theme": "light",
+    "enableAnalytics": true,
+    "enableHaptics": true,
+    "autoScroll": false,
+    "autoScrollDuration": 3000,
+    "cta": {
+      "nextText": "التالي",
+      "backText": "السابق",
+      "skipText": "تخطي",
+      "doneText": "ابدأ الآن"
+    }
+  },
+
+  "onboarding": [
+    {
+      "id": "MY_APP_ONBOARD_00001",
+      "order": 1,
+      "title": "مرحبًا بك في مكتشف التجارب السريرية",
+      "description": "اكتشف التجارب السريرية المناسبة لاحتياجاتك الصحية وتفضيلاتك.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_1.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_1.png"
+        },
+        "animation": {
+          "local": "assets/animations/welcome.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#F5F9FF",
+        "textColor": "#1A1A1A",
+        "accentColor": "#2E6BFF"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00002",
+      "order": 2,
+      "title": "ابحث حسب الحالة",
+      "description": "اعثر بسرعة على التجارب بناءً على حالتك الطبية أو الكلمات المفتاحية.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_2.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_2.png"
+        },
+        "animation": {
+          "local": "assets/animations/search.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#1A1A1A",
+        "accentColor": "#14A86B"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": false,
+        "animation": true
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00003",
+      "order": 3,
+      "title": "تصفية ذكية",
+      "description": "قم بتطبيق فلاتر مثل الموقع والعمر ومعايير الأهلية لتضييق النتائج.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_3.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_3.png"
+        },
+        "animation": {
+          "local": "assets/animations/filter.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#F9FAFB",
+        "textColor": "#1A1A1A",
+        "accentColor": "#FF8A00"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00004",
+      "order": 4,
+      "title": "انضم بسهولة",
+      "description": "تواصل مع الباحثين وانضم إلى التجارب بسهولة عبر خطوات إرشادية.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_4.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_4.png"
+        },
+        "animation": {
+          "local": "assets/animations/join.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#EEF7F1",
+        "textColor": "#1A1A1A",
+        "accentColor": "#00AEEF"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00005",
+      "order": 5,
+      "title": "احفظ التجارب",
+      "description": "قم بوضع إشارة مرجعية على التجارب لمراجعتها وتتبعها لاحقًا.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_5.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_5.png"
+        },
+        "animation": {
+          "local": "assets/animations/save.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#FFF7ED",
+        "textColor": "#1A1A1A",
+        "accentColor": "#F97316"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00006",
+      "order": 6,
+      "title": "تحديثات فورية",
+      "description": "احصل على إشعارات حول حالة التجارب والفرص الجديدة.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_6.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_6.png"
+        },
+        "animation": {
+          "local": "assets/animations/notification.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#F0FDF4",
+        "textColor": "#1A1A1A",
+        "accentColor": "#22C55E"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": false,
+        "animation": true
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00007",
+      "order": 7,
+      "title": "تحقق من الأهلية",
+      "description": "أجب على بعض الأسئلة لمعرفة ما إذا كنت مؤهلاً للتجارب.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_7.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_7.png"
+        },
+        "animation": {
+          "local": "assets/animations/check.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#EFF6FF",
+        "textColor": "#1A1A1A",
+        "accentColor": "#3B82F6"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00008",
+      "order": 8,
+      "title": "توصيات مخصصة",
+      "description": "احصل على توصيات تجارب مناسبة لملفك الشخصي.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_8.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_8.png"
+        },
+        "animation": {
+          "local": "assets/animations/recommend.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#FAF5FF",
+        "textColor": "#1A1A1A",
+        "accentColor": "#A855F7"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00009",
+      "order": 9,
+      "title": "آمن وخاص",
+      "description": "بياناتك الشخصية مشفرة ويتم التعامل معها بأمان تام.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_9.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_9.png"
+        },
+        "animation": {
+          "local": "assets/animations/security.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#F8FAFC",
+        "textColor": "#1A1A1A",
+        "accentColor": "#0EA5E9"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": false,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    },
+
+    {
+      "id": "MY_APP_ONBOARD_00010",
+      "order": 10,
+      "title": "ابدأ رحلتك",
+      "description": "أنشئ ملفك الشخصي وابدأ في استكشاف التجارب السريرية اليوم.",
+      "media": {
+        "image": {
+          "local": "assets/images/onboarding_10.png",
+          "remote": "https://cdn.myapp.com/onboarding/onboarding_10.png"
+        },
+        "animation": {
+          "local": "assets/animations/start.json",
+          "remote": null
+        }
+      },
+      "style": {
+        "backgroundColor": "#ECFEFF",
+        "textColor": "#1A1A1A",
+        "accentColor": "#06B6D4"
+      },
+      "visibility": { "enabled": true },
+      "itemDisplay": {
+        "logo": true,
+        "title": true,
+        "description": true,
+        "image": true,
+        "animation": false
+      }
+    }
+  ]
+}
